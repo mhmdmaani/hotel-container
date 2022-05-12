@@ -16,4 +16,4 @@ script:
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push mhmdmaani/hotel-booking:"1.0.0"
+  - docker push mhmdmaani/booking-hotel:"1.0.0"
