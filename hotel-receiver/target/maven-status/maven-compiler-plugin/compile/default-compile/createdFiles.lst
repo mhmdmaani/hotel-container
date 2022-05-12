@@ -1,0 +1,5 @@
+com/HotelBooking/app/config/TaskConfig.class
+com/HotelBooking/app/config/JmsConfig.class
+com/HotelBooking/app/model/MessageObject.class
+com/HotelBooking/app/receiver/Receiver.class
+com/HotelBooking/app/App.class
