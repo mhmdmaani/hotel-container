@@ -14,6 +14,8 @@ services:
             - hotel-network
     volumes:
       - ./mysql/data:/var/lib/mysql
+    ports:
+      - "3308:3306"
 
   hotel-booking-receiver:
     build:
