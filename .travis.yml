@@ -6,6 +6,7 @@ services:
 branches:
   only:
     - deployment
+    - master
 
 before_install:
   - docker network create hotel-network

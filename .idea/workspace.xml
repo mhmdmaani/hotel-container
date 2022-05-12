@@ -2,120 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f02aba48-a220-4f27-9cfe-3f9826bb6896" name="Changes" comment="initalization 3">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/HotelBooking-app-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/HotelBooking-app-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/HotelBookingApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/SpringFoxConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/auth/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/auth/filter/CustomAthorizationFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/auth/filter/CustomAuthenticationFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/config/JmsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/controller/AuthController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/controller/BookingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/controller/BookingMemberController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/controller/CustomerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/controller/ExtraController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/controller/HotelCategoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/controller/HotelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/controller/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/controller/PaymentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/controller/RoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/controller/RoomApiController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/controller/RoomController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/controller/RoomTypeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/controller/StaffController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/exception/ApiError.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/exception/CustomException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/exception/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/model/Booking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/model/BookingMember.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/model/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/model/Extra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/model/Hotel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/model/HotelCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/model/MessageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/model/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/model/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/model/Room.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/model/RoomType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/model/Staff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/model/TokenResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/repository/BookingMemberRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/repository/BookingRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/repository/CustomerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/repository/ExtraRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/repository/HotelCategoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/repository/HotelRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/repository/PaymentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/repository/RoleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/repository/RoomRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/repository/RoomTypeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/repository/StaffRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/sender/Sender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/service/BookingMemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/service/BookingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/service/CustomerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/service/ExtraService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/service/HotelCategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/service/HotelService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/service/PaymentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/service/RoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/service/RoomService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/service/RoomTypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/HotelBooking/app/service/StaffService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/templates/new_room.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/templates/update_room.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-receiver/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-receiver/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-receiver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/app-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/app-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/classes/com/HotelBooking/app/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/classes/com/HotelBooking/app/config/JmsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/classes/com/HotelBooking/app/config/TaskConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/classes/com/HotelBooking/app/model/MessageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/classes/com/HotelBooking/app/receiver/Receiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/surefire-reports/TEST-com.HotelBooking.app.AppTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/surefire-reports/com.HotelBooking.app.AppTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-receiver/target/test-classes/com/HotelBooking/app/AppTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#ib_16384_0.dblwr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_1.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_10.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_2.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_3.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_3.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_4.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_4.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_5.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_5.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_6.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_6.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_7.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_8.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_9.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/binlog.000018" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/binlog.000018" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/binlog.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/mysql.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/undo_001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/undo_002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652351553598</updated>
-      <workItem from="1652351554710" duration="22119000" />
+      <workItem from="1652351554710" duration="22672000" />
     </task>
     <task id="LOCAL-00001" summary="initalization">
       <created>1652367785603</created>
