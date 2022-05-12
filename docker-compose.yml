@@ -24,9 +24,11 @@ services:
     ports:
         - "8081:8080"
     networks:
-            - hotel-network
+      - hotel-network
     links:
-      - activemq-server
+      - activemq
+    depends_on:
+      - app-build
 
   hotel-booking-app:
     build:
@@ -36,8 +38,10 @@ services:
         - "8080:8080"
     networks:
             - hotel-network
+    depends_on:
+      - app-build
     links:
-      - activemq-server
+      - activemq
       - mysql-server
 
 
