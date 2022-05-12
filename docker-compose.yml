@@ -26,7 +26,7 @@ services:
     networks:
             - hotel-network
     links:
-      - activemq-server
+      - activemq
 
   hotel-booking-app:
     build:
@@ -37,7 +37,7 @@ services:
     networks:
             - hotel-network
     links:
-      - activemq-server
+      - activemq
       - mysql-server
 
 
