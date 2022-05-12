@@ -1,0 +1,44 @@
+version: '3.7'
+services:
+  activemq:
+    build:
+      context: ./activemq
+      dockerfile: ./Dockerfile
+    networks:
+            - hotel-network
+  mysql-server:
+    build:
+      context: ./mysql
+      dockerfile: ./Dockerfile
+    networks:
+            - hotel-network
+    volumes:
+      - ./mysql/data:/var/lib/mysql
+
+  hotel-booking-receiver:
+    build:
+      context: ./hotel-receiver
+      dockerfile: ./Dockerfile
+    ports:
+        - "8081:8080"
+    networks:
+            - hotel-network
+    links:
+      - activemq-server
+
+  hotel-booking-app:
+    build:
+      context: ./app
+      dockerfile: ./Dockerfile
+    ports:
+        - "8080:8080"
+    networks:
+            - hotel-network
+    links:
+      - activemq-server
+      - mysql-server
+
+
+networks:
+  hotel-network:
+    external: true
