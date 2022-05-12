@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9aef976a-9414-4e8c-9edb-5d91ae0bc8f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HotelBooking/app/controller/RoomApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HotelBooking/app/controller/RoomApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HotelBooking/app/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HotelBooking/app/controller/RoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HotelBooking/app/model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HotelBooking/app/model/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/new_room.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CustomHttpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/HotelBooking/app/AppApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/HotelBooking/app/staff/StaffIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="293bYwwRI0md5z0uehqcxl8pGak" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/almaani/IdeaProjects/hotel-container/app/src/test/resources",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "d2a57dc1d883fd21fb9951699df71cc7"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HotelBookingApp">
+    <configuration name="StaffIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.HotelBooking.app.staff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.HotelBooking.app.staff" />
+      <option name="MAIN_CLASS_NAME" value="com.HotelBooking.app.staff.StaffIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaffIntegrationTest.fetchAllSTaff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.HotelBooking.app.staff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.HotelBooking.app.staff" />
+      <option name="MAIN_CLASS_NAME" value="com.HotelBooking.app.staff.StaffIntegrationTest" />
+      <option name="METHOD_NAME" value="fetchAllSTaff" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaffIntegrationTest.fetchAllSTaffFromUnAuthorized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.HotelBooking.app.staff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.HotelBooking.app.staff" />
+      <option name="MAIN_CLASS_NAME" value="com.HotelBooking.app.staff.StaffIntegrationTest" />
+      <option name="METHOD_NAME" value="fetchAllSTaffFromUnAuthorized" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaffIntegrationTest.fetchAllStaffFromUnAuthorized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.HotelBooking.app.staff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.HotelBooking.app.staff" />
+      <option name="MAIN_CLASS_NAME" value="com.HotelBooking.app.staff.StaffIntegrationTest" />
+      <option name="METHOD_NAME" value="fetchAllStaffFromUnAuthorized" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="DB_PASSWORD=mhmd19881988;DB_URL=jdbc:mysql://localhost:3306/hotelapp?useSSL=false&amp;serverTimezone=UTC&amp;useLegacyDatetimeCode=false;DB_USER=root;JWT_SECRET=1234;PORT=8083" />
+      <module name="app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.HotelBooking.app.HotelBookingApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelBookingApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <envs>
+        <env name="DB_PASSWORD" value="root" />
+        <env name="DB_URL" value="jdbc:mysql://hotelapp-mysql/hotelapp" />
+        <env name="DB_USER" value="root" />
+        <env name="JWT_SECRET" value="1234" />
+      </envs>
+      <module name="app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.HotelBooking.app.HotelBookingApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.StaffIntegrationTest" />
+      <item itemvalue="JUnit.StaffIntegrationTest.fetchAllSTaff" />
+      <item itemvalue="JUnit.StaffIntegrationTest.fetchAllSTaffFromUnAuthorized" />
+      <item itemvalue="JUnit.StaffIntegrationTest.fetchAllStaffFromUnAuthorized" />
+      <item itemvalue="Spring Boot.AppApplication" />
+      <item itemvalue="Spring Boot.HotelBookingApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StaffIntegrationTest.fetchAllStaffFromUnAuthorized" />
+        <item itemvalue="JUnit.StaffIntegrationTest" />
+        <item itemvalue="JUnit.StaffIntegrationTest.fetchAllSTaffFromUnAuthorized" />
+        <item itemvalue="JUnit.StaffIntegrationTest.fetchAllSTaff" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9aef976a-9414-4e8c-9edb-5d91ae0bc8f4" name="Changes" comment="" />
+      <created>1652344769106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652344769106</updated>
+      <workItem from="1652344771585" duration="4886000" />
+      <workItem from="1652359765256" duration="5018000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

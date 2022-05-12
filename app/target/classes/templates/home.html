@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Goteborg Hotel </title>
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+
+</head>
+<body>
+
+<div class="container my-2">
+    <h1 class="text-center">Goteborg Hotel </h1>
+
+    <form  th:action="@{/ShowHome}" method="get" class="text-center">
+        <input type="text" name="keyword"  size="60"   />
+        &nbsp;
+        <input type="submit" value="Search" class="btn btn-primary btn-sm mb-1"/>
+    </form>
+
+<div class="table-responsive" >
+    <div th:each="room : ${Rooms}" style="align-items: center; background: lightslategrey ; padding: 10px ; margin: 10px ; color: white" >
+
+
+        <form action="#" th:action="@{/bookRoom}" th:object="${booking}"
+              method="POST">
+ <h2 th:text="${room.getName()}" ></h2>
+ <p th:text="${room.getDescription()}"></p>
+ <p th:text="${room.getPrice()}"></p>
+<label for="check in">check in date:</label>
+ <input type="datetime-local" id="check in" name="check in">
+<label for="check out">check out date:</label>
+ <input type="datetime-local" id="check out" name="check out" >
+     <button type="submit" class="btn btn-info col-2 float-right" > book Room</button>
+     </form>
+
+    </div>
+</div>
+</div>
+</body>
+</html>
