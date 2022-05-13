@@ -22,7 +22,7 @@
 
     stage ("start containers") {
       steps{
-        sh 'docker-compose up -d --wait'
+        sh 'docker compose up -d --wait'
         }
     }
     stage("run tests") {
@@ -33,8 +33,8 @@
  }
  post {
   always {
-    sh 'docker-compose down'
-    sh 'docker-compose ps'
+    sh 'docker compose down'
+    sh 'docker compose ps'
  }
  }
  }
