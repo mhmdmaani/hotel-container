@@ -27,8 +27,6 @@ services:
       - hotel-network
     links:
       - activemq
-    depends_on:
-      - app-build
 
   hotel-booking-app:
     build:
@@ -38,8 +36,6 @@ services:
         - "8083:8080"
     networks:
             - hotel-network
-    depends_on:
-      - app-build
     links:
       - activemq
       - mysql-server
