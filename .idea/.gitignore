@@ -7,4 +7,4 @@
 /dataSources/
 /dataSources.local.xml
 /mysql/data
-/mysql/data/
+/mysql/data/*
