@@ -5,7 +5,6 @@ COPY mvnw .
 COPY pom.xml .
 COPY src src
 
-RUN ./mvnw -B test
 RUN ./mvnw -B package
 
 FROM openjdk:18
